@@ -3,7 +3,7 @@ $(call inherit-product, device/samsung/ariesve/full_ariesve.mk)
 # Release name
 PRODUCT_RELEASE_NAME := ariesve
 
-$(call inherit-product, vendor/aokp/configs/common_phone.mk)
+$(call inherit-product, vendor/aokp/configs/common_drm_phone.mk)
 
 # Inherit GSM common stuff
 $(call inherit-product, vendor/aokp/configs/gsm.mk)
