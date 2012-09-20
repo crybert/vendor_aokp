@@ -25,7 +25,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_FINGERPRINT=samsung/GT-I9001/GT-I9001:2.3.
 PRODUCT_COPY_FILES += \
 	vendor/aokp/prebuilt/bootanimation/bootanimation_480_800.zip:system/media/bootanimation.zip \
 	vendor/aokp/prebuilt/ariesve/HoloLauncherHD.apk:system/app/HoloLauncherHD.apk \
-	vendor/aokp/prebuilt/ariesve/OTAUpdater-1.0.2.apk:system/app/OTAUpdater-1.0.2.apk
+	vendor/aokp/prebuilt/ariesve/OTAUpdater-1.0.3.apk:system/app/OTAUpdater-1.0.3.apk
 
 # Other Apps
 PRODUCT_PACKAGES += \
