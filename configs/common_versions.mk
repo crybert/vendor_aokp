@@ -11,5 +11,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     otaupdater.otaid=romidaokpcrybert \
     otaupdater.otatime=$(DATE) \
-    otaupdater.otaver=build 4
+    otaupdater.otaver=build_4 \
+    otaupdater.noflash=1
 
