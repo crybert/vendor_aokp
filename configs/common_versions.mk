@@ -5,12 +5,12 @@ DATE = $(shell date +%Y%m%d-%H%M)
 
 # Rom Manager properties
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.aokp.version=$(TARGET_PRODUCT)_milestone-6_build_4
+    ro.aokp.version=$(TARGET_PRODUCT)_milestone-6_build_5
 
 # OTAUpdater
 PRODUCT_PROPERTY_OVERRIDES += \
     otaupdater.otaid=romidaokpcrybert \
     otaupdater.otatime=$(DATE) \
-    otaupdater.otaver=build_4 \
+    otaupdater.otaver=build_5 \
     otaupdater.noflash=1
 
