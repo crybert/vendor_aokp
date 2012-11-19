@@ -22,8 +22,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_FINGERPRINT=samsung/GT-I9001/GT-I9001:2.3.
 # boot animation
 PRODUCT_COPY_FILES += \
 	vendor/aokp/prebuilt/bootanimation/bootanimation_480_800.zip:system/media/bootanimation.zip
-# Other Apps
-PRODUCT_PACKAGES += \
-    Music \
-    Mms \
-    Camera
+
